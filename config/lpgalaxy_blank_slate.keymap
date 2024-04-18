@@ -17,13 +17,13 @@
     hold-time-ms = <1000>;
 };
 
-#define BT(n) BT_SEL n
-
 / {
     chosen {
        zmk,matrix_transform = &ortho_transform;
     };
+};
 
+/ {
 	macros {
 		raise: raise {
 			label = "RAISE";
@@ -101,7 +101,6 @@
 		};
 	};
 };
-
 
 / {
 	keymap {
