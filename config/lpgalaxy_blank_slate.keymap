@@ -29,8 +29,7 @@
 			label = "RAISE";
 			compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
-			bindings
-			 = <&macro_press &mo RAISE>
+			bindings = <&macro_press &mo RAISE>
 			 , <&macro_pause_for_release>
 			 , <&macro_release &mo RAISE>
 			 , <&macro_release &kp LALT>
