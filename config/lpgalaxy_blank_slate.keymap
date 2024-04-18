@@ -3,11 +3,13 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define QWERTY_BASE 1
-
 #define TBLE_ORTHO   1
 // #define TBLE_MIT     1
 // #define TBLE_DUAL_2U 1
+
+#define DEFAULT 0
+#define LOWER   1
+#define RAISE   2
 
 &mt {
     tapping-term-ms = <140>;
